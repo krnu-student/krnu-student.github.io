@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+<title>Веб сайт Лозового Олександра</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="C:\Users\lozov\OneDrive\Рабочий стол\web-2.0-1042\minisite-pro\Калькулятор\stale_k.css" /> 
+ <script type="text/javascript" src="script.js"></script>
+
+</head>
+<body>
+<div id="wrapper">
+  <div id="header"> <a href="index.htm"><img src="https://raw.githubusercontent.com/krnu-student/krnu-student.github.io/main/images/logo.png" alt="" width="760" height="170" class="logo" /></a> </div>
+  <ul id="nav">
+    <li><a href="http://web-masy.info/">Головна</a></li>
+    <li><a href="http://web-mary.info/">Виконані лабораторні</a></li>
+	<li><a href="http://web-mry.info/">Веб експеременти</a></li>
+    <li><a href="http://web-ry.info/">Калькулятор</a></li>
+    <li><a href="http://wery.info/">Про себе</a></li>
+  </ul>
+  <div id="content" class="clearfix">
+    <div id="col_1">
+      <h2>Корисні посилання</h2>
+      <ul id="subnav">
+        <li><a target="_blank" href="http://xn--80aaasqmjc6cd.xn--j1amh/" >Математика укр</a></li>
+        <li><a target="_blank" href="http://www.kdu.edu.ua/" >Головний сайт КpНУ</a></li>
+        <li><a target="_blank" href="http://primat.org/" >Primat.org</a></li>
+      </ul>
+    </div>
+    <div id="col_2">
+      <h1>Калькулятор площі трапеції</h1>
+	  <p>Тут представлений калькулятор обчислення плоці трапеції трьома способами </p>
+	  </div> 
+	
+ <div class="dropdown">
+  <button class="dropbtn">Способи вирішення</button>
+  <div class="dropdown-content">
+    <a href="">Площа трапеції за висотою та двома підставами</a>
+    <a href="#">Площа трапеції з чотирьох боків</a>
+    <a href="#">Площа трапеції через її основи та кути при основі</a>
+  </div>
+      
+ </div>
+      <blockquote> 
+		<form name="forma1">
+		Одна сторона трапеції a <input type="text" name="t1" size="10"><br><br>
+		Друга сторона трапеції b <input type="text" name="t2" size="10"><br><br>
+		Висота трапеції h <input type="text" name="t3" size="10"><br><br> 
+		<input type="button" name="button" value="Обрахувати"
+										onClick="areaRectangle();"><br><br>
+
+		Площадь прямоугольника равна <input type="text" name="res" size="10">
+ </form> 
+ <img src='https://raw.githubusercontent.com/krnu-student/krnu-student.github.io/main/images/trap1.png' id="image_1" style="position: absolute; width: 170px; margin-top: -220px; left: 830px;" /> 
+ </blockquote>
+	  
+     
+      
+    </div>
+	
+  </div>
+  
+  <div id="footer"><small>Лозовий Олександр для курсу "Основи Web програмування".<br />
+   <a href="https://github.com/krnu-student" target="_blank">посилання на GitHub</a></a></small></div>
+</div> 
+<script type="text/javascript"> 
+function areaRectangle(){
+  var a=document.forma1.t1.value;
+  var b=document.forma1.t2.value;
+  var h=document.forma1.t3.value;
+  var s=((Number(a) + Number(b)) *(Number(h))/2);
+  document.forma1.res.value=s;
+} 
+</script>
+
+</body>
+</html>
