@@ -1,0 +1,72 @@
+.head{
+    background-color: #58f8f8;
+    margin: 1%;
+    height: 80px;;
+    max-height: 5%;
+    overflow: hidden;
+    text-align: center;
+}
+.main{
+    background-color: #58f8f8;
+    margin: 1%;
+    height: 80px;
+    max-height: 5%;
+    overflow: hidden;
+    text-align: center;
+}
+div p{
+    font-size: 40px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+} 
+.line1{
+    margin: 1%;
+    width: 1px;
+}
+.left-mini {
+    background-color: #58f8f8;
+    position: absolute;
+    left: 1.40625%;
+    width: 29.86111111111111%;
+    height: 280.4px;
+}
+.left{
+    background-color: #58f8f8;
+    position: absolute;
+    left: 33.87152777777778%;
+    width: 31.06770833333333%;
+    height: 125px;
+}
+.right{
+    background-color: #58f8f8;
+    position: absolute;
+    left: 67.54340277777778%;
+    width: 31.06770833333333%;
+    height: 125px;
+}
+.left-big{
+    background-color: #58f8f8;
+    position: absolute;
+    left: 1.40625%;
+    width: 29.86111111111111%;
+    height: 430.6px;
+}
+.right-big{
+    background-color: #58f8f8;
+    position: absolute;
+    left: 33.87152777777778%;
+    width: 31.06770833333333%;
+    height: 430.6px;
+}
+.line2{
+    margin-top: 169.2px;
+}
+.line3{
+    margin-top: 319.4px;
+}
+.line4{
+    margin-top: 469.6px;
+}
+.line5{
+    margin-top: 619.8px;
+}
