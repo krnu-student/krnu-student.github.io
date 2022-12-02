@@ -28,13 +28,13 @@ a:hover, a:active 	{ color: #DB7C7C; }
 /*\*/ .clearfix { display:block; } /**/ 
 
  h1		
-	{ font-size: 20px; line-height: 18px;  }
+	{ font-size: 20px; line-height: 30px;text-align: center;  }
  h2 		
 	{ font-size:18px; }
  h3		
 	{ font-size: 24px; color: #666; text-align: center;line-height: 60px; } 
 h4 
-    {font-size: 36px; color: #666; text-align: center;line-height: 90px;}
+    {font-size: 36px; color: #666; text-align: center;line-height: 90px;}	
 
 #wrapper 		{ width:760px; margin:0 auto; }
 #header 		{ position:relative; display:block; width:760px; height:102px; background:#FFF url(https://raw.githubusercontent.com/krnu-student/krnu-student.github.io/main/images/bg_header.gif) repeat-x; }
